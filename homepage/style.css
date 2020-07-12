@@ -76,12 +76,22 @@ html, body {
     font-size: 2em;
 }
 
+.subsection-header {
+    font-size: 1.3em;
+    color: #333;
+}
+
 .about-prof-image {
     float: left;
     height: 200px;
     width: 200px;
     margin: 15px;
     border-radius: 50%;
+}
+
+.res-element {
+    float: left;
+    margin: 15px;
 }
 
 .main-footer {
@@ -108,4 +118,14 @@ html, body {
 .footer-nav .sm-logo {
     width: 35px;
     height: 35px;
+}
+
+.skill-item {
+    margin: 30px;
+}
+
+.skill-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
 }
