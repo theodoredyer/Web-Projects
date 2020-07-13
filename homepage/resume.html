@@ -2,7 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css"/>
-        <title>Practice Web Concepts</title>
+        <title>Resume | Theodore Dyer</title>
         <meta name="description" content="some desc">
     </head>
     <body>
@@ -11,7 +11,7 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="resume.html">Resume</a></li>
-                    <li><a href="projs.html">My Projects (NYI)</a></li>
+                    <li><a href="projs.html">Projects</a></li>
                 </ul>
             </nav>
             <h1 class="my-name my-name-large">Theodore Austin Dyer</h1>
@@ -20,7 +20,7 @@
         </header>
 
         <section class="content-section container">
-            <h2 class="section-header">Resume</h2>
+            
             <!-- <img class="about-prof-image" src="src/smallerprof.PNG" height="200" width="250"> -->
             <h3 class="subsection-header">Personal Information</h3>
             <p>
@@ -28,7 +28,9 @@
                 <br>Contact: tdyer@ucsc.edu
             </p>
             
-            <h3 class="subsection-header">Education</h3>
+            <section class="header-strip">
+                <h2 class="res-section-header">Education</h2>
+            </section>
             <img class="res-element" src="src/ucsclogo.png" height="70">
 
             <p>
@@ -41,8 +43,9 @@
                  Computational Methods and Applications, Analysis of Algorithms
             </p>
 
-            <br>
-            <h3 class="subsection-header">Development Experience</h3>
+            <section class="header-strip">
+                <h2 class="res-section-header">Development Experience</h2>
+            </section>
             <img class="res-element" src="src/unitylogo.png" height="70">
             <p>
                 <strong>Unity Development Intern @ Big Picture Game Studio</strong>
@@ -77,70 +80,97 @@
                 - Personally developed a physics system for object manipulation.
             </p>
 
-
-            <h2 class="section-header">Languages - not finished yet </h2>
-            <div class="skill-item">
+            <section class="header-strip">
+                <h2 class="res-section-header">Languages</h2>
+            </section>
+            <div class="skill-items">
+                <div class="skill-item">
                     <span class="skill-item-title">JavaScript</span>
-                <img class="skill-item-image" src="src/jslogo.png" height="120" width="120">
-                <div class="skill-item-details">
-                    <span>Experience: Moderate</span>
+                    <img class="skill-item-image" src="src/jslogo.png">
+                    <div class="skill-item-details">
+                        <span class="skill-text">Experience: Proficient</span>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <div>
-                    <strong>HTML</strong>
+                <div class="skill-item">
+                    <span class="skill-item-title">Python</span>
+                    <img class="skill-item-image" src="src/pythonlogo.png">
+                    <div class="skill-item-details">
+                        <span class="skill-text">Experience: Proficient</span>
+                    </div>
                 </div>
-                <img src="src/htmllogo.png" height="120" width="120">
-                <div>
-                    <span>Experience: Moderate</span>
+                <div class="skill-item">
+                    <span class="skill-item-title">C</span>
+                    <img class="skill-item-image" src="src/clogo.png">
+                    <div class="skill-item-details">
+                        <span class="skill-text">Experience: Proficient</span>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <div>
-                    <strong>CSS</strong>
+                <div class="skill-item">
+                    <span class="skill-item-title">Java</span>
+                    <img class="skill-item-image" src="src/javalogo.png">
+                    <div class="skill-item-details">
+                        <span class="skill-text">Experience: Proficient</span>
+                    </div>
                 </div>
-                <img src="src/csslogo.png" height="120" width="120">
-                <div>
-                    <span>Experience: Moderate</span>
+                <div class="skill-item">
+                    <span class="skill-item-title">HTML</span>
+                    <img class="skill-item-image" src="src/htmllogo.png">
+                    <div class="skill-item-details">
+                        <span class="skill-text">Experience: Moderate</span>
+                    </div>
                 </div>
+                <div class="skill-item">
+                    <span class="skill-item-title">CSS</span>
+                    <img class="skill-item-image" src="src/css.png">
+                    <div class="skill-item-details">
+                        <span class="skill-text">Experience: Moderate</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-item-title">Haskell</span>
+                    <img class="skill-item-image" src="src/haskell.png">
+                    <div class="skill-item-details">
+                        <span class="skill-text">Experience: Moderate</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-item-title">C++</span>
+                    <img class="skill-item-image" src="src/cpplogo.png">
+                    <div class="skill-item-details">
+                        <span class="skill-text">Experience: Some</span>
+                    </div>
+                </div>
+                
             </div>
 
-                <h2>Frameworks and Platforms</h2>
-                <div>
-                    <div>
-                        <strong>D3.js</strong>
-                    </div>
-                    <img src="src/d3logo.png" height="120" width="120">
-                    <div>
-                        <span>Experience: Moderate</span>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <strong>WebGL</strong>
-                    </div>
-                    <img src="src/webgllogo.png" height="120" width="120">
-                    <div>
-                        <span>Experience: Moderate</span>
+            <section class="header-strip">
+                <h2 class="res-section-header">Frameworks and Libraries</h2>
+            </section>
+            <div class="skill-items">
+                <div class="skill-item">
+                    <span class="skill-item-title">D3.js</span>
+                    <img class="skill-item-image" src="src/d3logo.png">
+                    <div class="skill-item-details">
+                        <span class="skill-text">Experience: Proficient</span>
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <strong>React.js</strong>
-                    </div>
-                    <img src="src/reactlogo.png" height="120" width="120">
-                    <div>
-                        <span>Experience: Moderate</span>
+                <div class="skill-item">
+                    <span class="skill-item-title">Unity</span>
+                    <img class="skill-item-image" src="src/unitylogo.png">
+                    <div class="skill-item-details">
+                        <span class="skill-text">Experience: Proficient</span>
                     </div>
                 </div>
-            
+                <div class="skill-item">
+                    <span class="skill-item-title">React.js</span>
+                    <img class="skill-item-image" src="src/reactlogo.png">
+                    <div class="skill-item-details">
+                        <span class="skill-text">Experience: Some</span>
+                    </div>
+                </div>
+                
+            </div>            
         </section>
-
-
-
-
-
-
 
         <footer class="main-footer">
             <div class="container main-footer-container">
