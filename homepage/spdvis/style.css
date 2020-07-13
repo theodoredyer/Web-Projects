@@ -43,8 +43,8 @@ html, body {
 }
 
 .main-header {
-    background-color: rgba(0, 0, 0, 0.2);
-    background-image: url('src/bgimg3.jpg');
+    background-color: #66b9ec;
+    /* background-image: url('src/bgimg3.jpg'); */
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
@@ -126,7 +126,6 @@ html, body {
 .main-footer-container ul {
     flex-grow: 1;
     text-align: end;
-    text-decoration: ;
 }
 
 .foter-nav li {
@@ -171,6 +170,15 @@ html, body {
     color: #444;
 }
 
-.proj-item a:hover {
-    background-color: rgba(80, 169, 251, 0.897)
+.axis path,
+.axis line {
+    stroke: teal;
+    shape-rendering: crispEdges;
+}
+
+
+.axis text{
+    font: Times;
+    font-size: 12px;
+    font-weight: bold;
 }
