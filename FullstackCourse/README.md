@@ -1,0 +1,2 @@
+Note taking and examples following along with Web Dev Simplified's youtube series: "Full Stack Web Development"
+https://www.youtube.com/watch?v=XlvsJLer_No&list=PLZlA0Gpn_vH9xx-RRVNG187ETT2ekWFsq&index=27
