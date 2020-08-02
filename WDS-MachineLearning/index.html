@@ -6,9 +6,34 @@
     <title>Machine Learning Example</title>
     <script src="//unpkg.com/brain.js" defer></script>
     <script src="script.js" defer></script>
+
+    <style>
+        #color {
+            width: 200px;
+            height: 200px;
+            border: 5px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .white {
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <p><strong>Basic Neural Net Visualization</strong></p>
+    <p><strong>Neural Net Visualization</strong></p>
     <div id="diagram"></div>
+    <div id="color">
+        <div class="white">White Text</div>
+        <div>Black Text</div>
+        <div class="guess">Guess Text</div>
+    </div>
+
+    <button id="white-btn">White</button>
+    <button id="black-btn">Black</button>
+    <button id="print-btn">Print</button>
 </body>
 </html>
